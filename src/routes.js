@@ -12,6 +12,7 @@ import UsingMemo from "./pages/UsingMemo";
 import UsingCallback from "./pages/UsingCallback";
 import UsingUseEffect from "./pages/UsingUseEffect";
 import Score from "./pages/Page/Score";
+import PageRxjs from "./pages/PageRxjs";
 
 
 const routes = [
@@ -66,6 +67,10 @@ const routes = [
             {
                 path: 'useeffect',
                 element: <UsingUseEffect/>
+            },
+            {
+                path: 'rxjs',
+                element: <PageRxjs/>
             },
             {
                 path: '',
